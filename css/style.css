@@ -1,0 +1,116 @@
+.header {
+  padding: 30px 0;
+  background-color: #363636;
+}
+
+.header__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__link {
+  text-transform: uppercase;
+  margin-right: 15px;
+  color: #36fdbb;
+  -webkit-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 5;
+  -o-transition: cubic-bezier(0.39, 0.575, 0.565, 1) 5;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 5;
+}
+
+.header__link:hover {
+  color: #cbfdec;
+}
+
+.header__link span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 1px #36fdbb;
+          box-shadow: 0px 4px 1px #36fdbb;
+  width: 140px;
+  height: 40px;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 30px;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.header__link span:hover {
+  background-color: aquamarine;
+  color: black;
+  -webkit-box-shadow: 0px 4px 1px black;
+          box-shadow: 0px 4px 1px black;
+}
+
+.header__link span:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid aquamarine;
+  width: 100px;
+  height: 30px;
+  color: aquamarine;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header__logo span {
+  font-weight: 700;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #535353;
+  padding: 5px 0;
+}
+
+.main__container {
+  width: 1340px;
+}
+
+.main__text {
+  color: #9fffdf;
+}

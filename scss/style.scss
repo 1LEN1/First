@@ -1,0 +1,113 @@
+.header {
+    padding: 30px 0 ;
+    background-color: #363636;
+   
+    // .header__container
+
+    &__container {
+        
+    }
+
+    // .header__column
+
+    &__column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .header__menu
+
+    &__menu {
+    }
+
+    // .header__list
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .header__link
+
+    &__link {
+        text-transform: uppercase;
+        margin-right: 15px;
+        color: #36fdbb;
+        transition: cubic-bezier(0.39, 0.575, 0.565, 1) 5;
+        &:hover {
+            color: rgb(203, 253, 236);
+        }   
+        & span {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 1px #36fdbb;
+            width: 140px;
+            height: 40px;
+            border: 3px solid black;
+            background-color: black;
+            border-radius: 30px;
+            transition: 0.6s ;
+            &:hover {
+                background-color: aquamarine;
+                color: black;
+                box-shadow: 0px 4px 1px black;
+            }    
+            &:active {
+                box-shadow: none;
+            }    
+              
+        }
+    }
+    &_header-btn {
+
+    }
+    // .header__burger
+
+    &__burger {
+    }
+
+    // .header__logo
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid aquamarine;
+        width: 100px;
+        height: 30px;
+        color: aquamarine;
+        text-transform: uppercase;
+        font-weight: 400;
+        & span {
+            font-weight: 700;
+        }
+    }
+
+    // .header__contact
+
+    &__contact {
+       
+    }
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 83, 83);
+    padding: 5px 0;
+    // .main__container
+
+    &__container {
+        width: 1340px;
+    }
+
+    // .main__text
+
+    &__text {
+        color: #9fffdf;
+    }
+}
+.footer {
+}
